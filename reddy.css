@@ -5,7 +5,7 @@ body{
 }
 
 wrapper{
-background: url(https://tse3.mm.bing.net/th?id=OIP.m7XqZKESZ1e48PWH15k-rQHaE8&pid=Api&P=0&w=301&h=202)
+background: url("https://tse3.mm.bing.net/th?id=OIP.m7XqZKESZ1e48PWH15k-rQHaE8&pid=Api&P=0&w=301&h=202")
 no-repeat center center;
   min-height: 30rem;
 }
