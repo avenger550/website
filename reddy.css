@@ -1,4 +1,4 @@
-body{
+...........body{
   font-family: sans-serlif;
   margin: 20;
   padding: 20;
@@ -28,7 +28,7 @@ nav ul{
 
 nav ul li{
   list-style-type: none;
-  display: inline-block;
+  display: inline-block;......
 }
 
 nav ul li a{
@@ -38,7 +38,7 @@ nav ul li a{
 }
 
 img{
-  width: 14%;
+  width: 7%;
   margin-left: 1.2rem;
   margin-top: -2%;
 }
