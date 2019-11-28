@@ -97,6 +97,12 @@ showcase h1{
   text-align: center;
 }
 
+#cources img{
+  width:250px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
   
     
   
