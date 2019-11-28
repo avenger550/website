@@ -1,4 +1,14 @@
+body{
+  font-family: sans-serlif;
+  margin: 0;
+  padding: 0;
+}
 
+wrapper{
+background: url("https://tse3.mm.bing.net/th?id=OIP.PEgZJ5bRwQ-6k_cgs-UNVAHaEN&pid=Api&P=0&w=270&h=155")
+no-repeat center center;
+  min-height: 30rem;
+}
     
   
   
