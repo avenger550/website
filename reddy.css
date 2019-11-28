@@ -47,4 +47,41 @@ background-color: coral;
   font-weight: bold;
   font-size:1.2rem;
 }
+ 
+section{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 4%;
+  
+}
+
+section h1{
+  color: #fff;
+  line-height:50px;
+}
+section p{
+  color: gray;
+}
+
+btn-1{
+  background-color: orangered;
+  padding:0.7rem 1rem;
+  color:#fff;
+  border: none;
+  border-radius: 10px;
+}
+
+features{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+featutres button{
+  padding:0.7rem 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  
+    
+  
   
