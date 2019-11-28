@@ -94,7 +94,9 @@ showcase h1{
 
 #courses{
   display: flex;
+  text-align: center;
 }
+
   
     
   
