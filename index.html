@@ -3,86 +3,115 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
+#mySidenav a {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
+#mySidenav a:hover {
+  left: 0;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+#INFO{
+  top: 20px;
+  background-color: #4CAF50;
 }
+
+#PHOTOS {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#VIDEOS {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+
+ .bounce {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #fefefe;
+            color: #333;
+            border: 1px solid #4a4a4a;
+        }
+        
+        .bounce p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            -moz-transform: translateX(50%);
+            -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+            -moz-animation: bouncing-text 5s linear infinite alternate;
+            -webkit-animation: bouncing-text 5s linear infinite alternate;
+            animation: bouncing-text 10s linear infinite alternate;
+        }
+        
+        @-moz-keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+            }
+        }
+        
+        @-webkit-keyframes bouncing-text {
+            0% {
+                -webkit-transform: translateX(50%);
+            }
+            100% {
+                -webkit-transform: translateX(-50%);
+            }
+        }
+        
+        @keyframes bouncing-text {
+            0% {
+                -moz-transform: translateX(50%);
+                -webkit-transform: translateX(50%);
+                transform: translateX(50%);
+            }
+            100% {
+                -moz-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+        }
+
 </style>
 </head>
 <body>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">FRIENDS</a>
-  <a href="#">PHOTOS</a>
-  <a href="#">VIDEOS</a>
-  <a href="#">STORIES</a>
-  <a href="#">CELEBRATIONS</a>
-  <a href="#">INFORMATION</a>
-  <a href="#">STUDIES</a>
-  <a href="#">Contact</a>
+
+  <a href="#" id="INFO">INFO</a>
+  <a href="#" id="PHOTOS">PHOTOS</a>
+  <a href="#" id="VIDEOS">VIDEOS</a>
+  <a href="#" id="contact">Contact</a>
 </div>
 
-<div id="main">
-  <h2>FRIENDS ADDA</h2>
- 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<div style="margin-left:80px;">
+  <h2>BEKAR GANG</h2>
+   <div class="bounce">
+  <p>  <marquee>IN THIS SITE CREAZY INCIDENTS AVAILABLE HERE....</marquee>.</p>
 </div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
+</div>
    
 </body>
 </html> 
